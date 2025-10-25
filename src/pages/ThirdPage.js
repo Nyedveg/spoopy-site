@@ -38,7 +38,7 @@ function ThirdPage() {
       if (isCorrect) {
         // Correct sequence - navigate to fourth page
         setTimeout(() => {
-          navigate('/revelation');
+          navigate('/nusvitimas');
         }, 800);
       } else {
         // Wrong sequence - show error and reset

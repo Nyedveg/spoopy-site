@@ -10,8 +10,11 @@ function FourthPage() {
       <div className="relative z-10 px-6 flex flex-col items-center gap-8 max-w-3xl">
         <h1 className="text-white text-4xl sm:text-5xl md:text-6xl font-pirata text-center leading-tight">
           After all your seeking,<br />
-          you found the <span className="text-red-600">Truth</span>
+          you found the <span className="text-red-600">Prize</span>
         </h1>
+        <p className="text-red-500 text-lg sm:text-xl font-amarante text-center italic">
+          Seek it out once more
+        </p>
       </div>
     </div>
   );
