@@ -12,8 +12,8 @@ function HomePage() {
       navigate('/nuotykiai');
     } else if (password.toLowerCase() === 'mirtis') {
       navigate('/mirtis');
-    } else if (password.toLowerCase() === 'prizas') {
-      navigate('/tiesa');
+    } else if (password.toLowerCase() === 'pagarba') {
+      navigate('/pagarba');
     } else {
       setError(true);
       setTimeout(() => setError(false), 2000);

@@ -15,7 +15,7 @@ function App() {
         <Route path="/nuotykiai" element={<SecondPage />} />
         <Route path="/mirtis" element={<ThirdPage />} />
         <Route path="/nusvitimas" element={<FourthPage />} />
-        <Route path="/tiesa" element={<FifthPage />} />
+        <Route path="/pagarba" element={<FifthPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </Router>

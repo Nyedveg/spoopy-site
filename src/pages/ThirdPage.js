@@ -61,7 +61,7 @@ function ThirdPage() {
         <h1 className={`text-4xl sm:text-5xl md:text-6xl font-pirata text-center leading-tight transition-colors duration-300 ${
           showError ? 'text-red-600' : 'text-red-500'
         }`}>
-          Mirtis
+          Fate
         </h1>
         
         {/* Poem */}
@@ -70,7 +70,7 @@ function ThirdPage() {
             The Fool stepped off the edge, pockets full of sunrise and song.<br />
             Then Babel cracked — tongues turned to thunder, love to ash.<br />
             A scythe kissed the clock, and the world stopped remembering itself.<br />
-            From the dust, a trumpet — graves yawning to the light of judgement.
+            From the dust, a trumpet — graves yawning to the light.
           </p>
         </div>
 
