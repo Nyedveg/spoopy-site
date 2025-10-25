@@ -8,10 +8,13 @@ module.exports = {
       colors: {
         dark: '#322c27',
         cream: '#ece9d6',
+        altdark: '#100f0d',
       },
       fontFamily: {
-        amarante: ['Amarante', 'serif'],
         pirata: ['Pirata One', 'serif'],
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
       },
     },
   },

@@ -5,12 +5,28 @@
 @layer base {
   body {
     font-family: 'Amarante', serif;
-    overflow: hidden;
   }
   
   html, body, #root {
     height: 100%;
     width: 100%;
-    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Allow scrolling on mobile for pages that need it */
+  @media (max-width: 768px) {
+    body {
+      overflow-y: auto;
+      overflow-x: hidden;
+      -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    }
+  }
+
+  /* Desktop keeps overflow hidden for pages that are single-screen */
+  @media (min-width: 769px) {
+    body {
+      overflow: hidden;
+    }
   }
 }
