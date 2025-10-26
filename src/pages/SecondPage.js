@@ -23,7 +23,7 @@ function SecondPage() {
           Seek what is missing
         </h1>
         <p className="text-red-500 text-lg sm:text-xl font-amarante text-center italic">
-          Where do the lost go?
+          404
         </p>
       </div>
     </div>
