@@ -9,13 +9,13 @@ function FourthPage() {
 
   // 8x8 letter grid with "PAGARBA" hidden diagonally
   const grid = [
-    ['L', 'A', 'M', 'K', 'T', 'R', 'V', 'D'],
-    ['N', 'G', 'B', 'F', 'H', 'W', 'Q', 'X'],
-    ['Y', 'B', 'H', 'R', 'U', 'Z', 'I', 'C'],
-    ['E', 'O', 'K', 'B', 'A', 'M', 'L', 'N'],
-    ['R', 'T', 'W', 'S', 'N', 'G', 'H', 'G'],
-    ['V', 'D', 'Q', 'X', 'Y', 'I', 'A', 'U'],
-    ['Z', 'I', 'C', 'E', 'O', 'K', 'A', 'P'],
+    ['P', 'A', 'M', 'K', 'T', 'R', 'V', 'D'],
+    ['N', 'A', 'F', 'F', 'H', 'W', 'Q', 'X'],
+    ['Y', 'B', 'G', 'R', 'U', 'Z', 'I', 'C'],
+    ['E', 'O', 'K', 'A', 'A', 'M', 'L', 'N'],
+    ['R', 'T', 'W', 'S', 'R', 'G', 'H', 'G'],
+    ['V', 'D', 'Q', 'X', 'Y', 'B', 'A', 'U'],
+    ['Z', 'I', 'C', 'E', 'O', 'K', 'A', 'D'],
     ['M', 'L', 'N', 'R', 'T', 'W', 'S', 'T']
   ];
 
