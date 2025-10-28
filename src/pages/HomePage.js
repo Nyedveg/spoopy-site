@@ -38,26 +38,8 @@ function HomePage() {
         <h1 className={`text-3xl sm:text-4xl md:text-5xl font-pirata text-center leading-tight transition-all duration-300 ${
           error ? 'text-red-500' : 'text-cream'
         }`}>
-          {error ? "You won't find this here." : "What do you seek?"}
+          {error ? "You won't find this here." : "It's over"}
         </h1>
-        
-        <form onSubmit={handleSubmit} className="flex flex-col items-center gap-4 w-full max-w-md">
-          <input
-            type="text"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            placeholder="Enter your answer... (LT)"
-            className={`w-full px-6 py-3 bg-cream/10 backdrop-blur-sm border-2 ${
-              error ? 'border-red-500' : 'border-cream/30'
-            } text-cream placeholder-cream/50 rounded-lg font-amarante text-center focus:outline-none focus:border-cream transition-colors`}
-          />
-          <button
-            type="submit"
-            className="px-8 py-3 bg-cream/20 hover:bg-cream/30 border-2 border-cream text-cream font-pirata text-xl rounded-lg transition-all duration-300 hover:scale-105"
-          >
-            Enter
-          </button>
-        </form>
       </div>
     </div>
   );
